@@ -41,4 +41,6 @@ yarn-debug.log*
 
 # Local reference material (not part of the new workspace repository)
 MyWrokSpace-main/
-Tsoding/
+Tsoding/*
+!Tsoding/
+!Tsoding/.gitkeep
