@@ -1,0 +1,17 @@
+{
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c17",
+    "cmake.configureOnOpen": false,
+    "files.exclude": {
+        "**/build": true,
+        "**/out": true,
+        "**/.cache": true,
+        "**/node_modules": true
+    },
+    "search.exclude": {
+        "**/build": true,
+        "**/out": true,
+        "**/.cache": true,
+        "**/node_modules": true
+    }
+}

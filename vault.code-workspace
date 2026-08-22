@@ -1,0 +1,44 @@
+{
+  "folders": [
+    { "name": "C++ · 临时实验", "path": "cpp/00_scratch" },
+    { "name": "C++ · Hello 学习项目", "path": "cpp/10_learning/001_hello" },
+    { "name": "C++ · 可复用库", "path": "cpp/20_libraries" },
+    { "name": "C++ · 正式项目", "path": "cpp/30_projects" },
+    { "name": "C++ · 项目模板", "path": "cpp/_template" },
+    { "name": "开发文档 · VitePress", "path": "docs" }
+  ],
+  "settings": {
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.cStandard": "c17",
+    "cmake.configureOnOpen": false,
+    "files.exclude": {
+      "**/.git": true,
+      "**/.DS_Store": true,
+      "**/build": true,
+      "**/out": true,
+      "**/.cache": true,
+      "**/node_modules": true,
+      "**/.vitepress/cache": true,
+      "**/.vitepress/dist": true
+    },
+    "search.exclude": {
+      "**/build": true,
+      "**/out": true,
+      "**/.cache": true,
+      "**/node_modules": true,
+      "**/.vitepress/cache": true,
+      "**/.vitepress/dist": true
+    },
+    "terminal.integrated.cwd": "${workspaceFolder}"
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-vscode.cpptools-extension-pack",
+      "ms-vscode.cmake-tools",
+      "llvm-vs-code-extensions.vscode-clangd",
+      "xaver.clang-format",
+      "yzhang.markdown-all-in-one",
+      "markdownlint.vscode-markdownlint"
+    ]
+  }
+}
