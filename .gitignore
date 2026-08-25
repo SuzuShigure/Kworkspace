@@ -47,3 +47,10 @@ Tsoding/*
 !Tsoding/sources/
 !Tsoding/sources/**
 Tsoding/20260822Clone/
+
+# Standalone repositories and local deployment workspaces
+/KerveinBlog/
+/chevereto-4.5/
+/Tmp/
+/.tmp-discourse-docker-src/
+/.tmp-discourse-docker.tar.gz
