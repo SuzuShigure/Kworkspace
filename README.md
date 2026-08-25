@@ -18,7 +18,7 @@ Kworkspace/
 │   ├── 20_libraries/          # 单文件/小型库
 │   ├── 30_projects/           # 长期项目
 │   └── _template/             # 新建项目
-└── docs/                      # VitePress
+└── KerveinWiki/               # 独立 VitePress Wiki（单独仓库）
 ```
 
 ## 新建项目
@@ -30,12 +30,16 @@ code cpp/10_learning/002_my_topic
 
 ## 文档
 
-开发记录集中在 [docs/](./docs/) 并由 VitePress 组织：
+Wiki 已拆分为独立仓库：[KerveinWiki](https://github.com/SuzuShigure/KerveinWiki)。
+
+本地开发：
 
 ```powershell
-cd docs
-npm install
+cd KerveinWiki
+npm ci
 npm run docs:dev
 ```
+
+Vercel 构建配置已写入 `KerveinWiki/vercel.json`，可直接使用 `wiki.veic.tech` 部署。
 
 

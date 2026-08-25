@@ -50,6 +50,7 @@ Tsoding/20260822Clone/
 
 # Standalone repositories and local deployment workspaces
 /KerveinBlog/
+/KerveinWiki/
 /chevereto-4.5/
 /Tmp/
 /.tmp-discourse-docker-src/
