@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "REPLACE_ME (CMake)",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${command:cmake.launchTargetPath}",
+            "cwd": "${command:cmake.launchTargetDirectory}",
+            "MIMode": "gdb",
+            "stopAtEntry": false,
+            "externalConsole": false,
+            "linux": { "MIMode": "gdb" },
+            "osx": { "MIMode": "lldb" },
+            "windows": { "type": "cppvsdbg" }
+        }
+    ]
+}
